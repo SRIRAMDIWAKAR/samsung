@@ -1,0 +1,148 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'SamsungOne',arial,sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    
+
+}
+#nav{
+    /* border: 2px solid ; */
+    height:70px ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: #000; */
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 50%;
+    margin-left: 20px;
+
+}
+#nav img{
+    height: 40px;
+    padding-left: 30px;
+}
+ol{
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(15px);
+    list-style: none;
+}
+#nav1{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 30%;
+    list-style: none;
+    transform: translateX(850px);
+    position: relative;
+    top: -40px;
+}
+#nav2{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 25%;
+    transform: translateX(1090px);
+    position: relative;
+    top: -100px; 
+} 
+#nav2 li{
+    font-size: 30px; 
+}
+#img{
+    /* border: 2px solid; */
+    height: 650px;
+    width: 95%;
+    margin: auto;
+}
+#week{
+    /* border: 2px solid; */
+    height: 70px;
+    width: 100%;
+    padding-left: 550px;
+}
+#week1{
+    /* border: 2px solid red; */
+    height: 50px;
+    width: 60%;
+    margin: auto;
+}
+#garb{
+    /* border: 2px solid ; */
+    height: 600px;
+    width: 95%;
+    margin: auto;
+    cursor: pointer;
+
+}
+#garb1{
+    /* border: 2px solid ; */
+    height: 600px;
+    width: 45%;
+    border-radius: 10%;
+    background-image: url(./IMG/MainKV_684x684copy.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#garb2{
+    /* border: 2px solid ; */
+    height: 270px;
+    width: 25%;
+    border-radius: 10%;
+    transform: translate(670px);
+    position: relative;
+    top: -600px;
+    background-image: url(./IMG/Galaxy-S23FE-5G_330x330.webp);
+    
+
+}
+#garb3{
+    /* border: 2px solid ; */
+    height: 270px;
+    width: 25%;
+    border-radius: 10%;
+    transform: translate(670px);
+    position: relative;
+    top: -550px;
+    background-image: url(./IMG/FGF-330x330-EPP.webp);
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+
+}
+#garb4{
+    /* border: 2px solid ; */
+    height: 270px;
+    width: 25%;
+    border-radius: 10%;
+    transform: translate(1070px);
+    position: relative;
+    top: -1140px;
+  background-image: url(./IMG/AI-Ecobubble-Front-load_330x330.webp);
+
+
+}
+#garb5{
+    /* border: 2px solid ; */
+    height: 270px;
+    width: 25%;
+    border-radius: 10%;
+    transform: translate(1070px);
+    position: relative;
+    top: -1090px;
+    background-image: url(./IMG/CUE60_330x330.webp);
+    
+}
+#logo{
+    border: 2px solid;
+    height: 700px;
+    width: 95%;
+    margin: auto;
+    background-image: url(./IMG/Z-Flip5_1440x810.jpg);
+}
